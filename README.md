@@ -3,6 +3,8 @@
 A java based application which provides a interface for the user to login/signup to book a ride.
 This application provides the user to register into the database using his/her details and maintain their account. It facilitates the user to book a cab for their desired location and the closest driver will be assigned to them. Every account/ID also has a wallet linked to it which can be used for booking rides and the user can add money to the wallet whenever required.
 
+![Home](/home.png)
+
 ## Database
 We hold 2 databases for the application namely **user** and **driver**. The 'user' database will hold the user personal information like their wallet amount and passwords. The 'driver' database will hold driver personal details and information regarding to his vehicle and current location ('Location_Name', 'Distance from reference' , 'Direction').
 To link database to the netbeans JAVA project file , the project has to be linked to 'mysql-connector-java-5.1.48-bin.jar' before accessing the phpmyadmin database.
